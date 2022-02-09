@@ -1,1 +1,4 @@
 express/node_modules
+express/.env
+express/config
+express/dist
