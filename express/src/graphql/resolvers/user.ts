@@ -5,7 +5,7 @@ import {
   ICreateUserInput,
   IModels,
   ILoginInput,
-  IAuthPayLoad,
+  IAuthPayload,
 } from "../../types";
 
 import { doLogin, getUserBy } from "../../lib/auth";
@@ -57,6 +57,6 @@ export default {
       _: any,
       { input }: { input: ILoginInput },
       { models }: { models: IModels }
-    ): Promise<IAuthPayLoad> => doLogin(input.email, input.password, models),
+    ): Promise<IAuthPayload> => doLogin(input.email, input.password, models),
   },
 };
