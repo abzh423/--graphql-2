@@ -16,3 +16,5 @@ DevDependencies to install:
 
 husky jest prettier sequelize-mock ts-jest ts-node-dev
 typescript eslint @types/jsonwebtoken
+
+JWT tocken based authentication
